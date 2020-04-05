@@ -162,6 +162,7 @@ body {
   width: 180px;
   height: 30px;
   border: 0;
+  border-radius: 25px;
   background: #fc6d6d;
   color: #fff;
   text-transform: uppercase;
@@ -169,6 +170,12 @@ body {
   opacity: 0;
   transition: 0.5s;
   transition-delay: 0.4s;
+}
+
+.content button:hover {
+  background: #bd4949;
+  color: #fff;
+  cursor: pointer;
 }
 
 .social-media {
